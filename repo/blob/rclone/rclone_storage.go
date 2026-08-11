@@ -34,7 +34,7 @@ const (
 	defaultRCloneExe = "rclone"
 
 	// defaultRcloneStartupTimeout is the time we wait for rclone to print the https address it's serving at.
-	defaultRcloneStartupTimeout = 15 * time.Second
+	defaultRcloneStartupTimeout = 15 * time.Minute
 )
 
 var log = logging.Module("rclone")
